@@ -13,7 +13,7 @@ end
 function main()
     A=[2 4 3;4 10 9;6 18 22]
     b=[9; 23; 46]
-    T,c = eliminação_gaussiana(A,b,3)
+    T,c = eliminacao_gaussiana(A,b,3)
 
     println(T)
     println(c)
